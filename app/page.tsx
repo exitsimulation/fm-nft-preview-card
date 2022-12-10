@@ -19,7 +19,7 @@ export default function Home() {
         <div className={"relative "}>
           <div
             className={
-              "absolute flex h-full w-full items-center justify-center rounded-2xl bg-cyan opacity-0 hover:opacity-40"
+              "absolute flex h-full w-full items-center justify-center rounded-2xl bg-cyan opacity-0 transition-opacity hover:opacity-40"
             }
           >
             <AiFillEye className={"scale-[3] fill-amber-50"} />
